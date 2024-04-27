@@ -10,5 +10,6 @@ public class VowelORConsonant {
         }else{
             System.out.println("Its a consonant");
         }
+        sc.close();
     }
 }
