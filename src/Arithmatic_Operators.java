@@ -13,20 +13,25 @@ public class Arithmatic_Operators {
         System.out.println("Please enter num2: ");
         int num2 = sc.nextInt();
 
-        if (operator == '+') {
-            System.out.println(num1 + num2);
-        }
-        if (operator == '-') {
-            System.out.println(num1 - num2);
-        }
-        if (operator == '*') {
-            System.out.println(num1 * num2);
-        }
-        if (operator == '/') {
-            System.out.println(num1 / num2);
-        }
-        if (operator == '%') {
-            System.out.println(num1 % num2);
+        switch (operator) {
+            case '+':
+                System.out.println(num1 + num2);
+                break;
+            case '-':
+                System.out.println(num1 - num2);
+                break;
+            case '*':
+                System.out.println(num1 * num2);
+                break;
+            case '/':
+                System.out.println(num1 / num2);
+                break;
+            case '%':
+                System.out.println(num1 % num2);
+                break;
+
+            default:
+                System.out.println("None");
 
         }
 
