@@ -7,8 +7,10 @@ public class MathVariableValue {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of x: ");
         double x = sc.nextDouble();
+        
         System.out.println("Enter the value of y: ");
         double y = sc.nextDouble();
+        
         System.out.println("Enter the value of z: ");
         double z = sc.nextDouble();
 
