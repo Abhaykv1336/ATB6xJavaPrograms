@@ -16,24 +16,23 @@ public class Arithmatic_Operators {
         if (operator == '+') {
             System.out.println(num1 + num2);
         }
-            if (operator == '-') {
-                System.out.println(num1 - num2);
-            }
-            if (operator == '*') {
-                System.out.println(num1 * num2);
-            }
-            if (operator == '/') {
-                System.out.println(num1 / num2);
-            }
-            if (operator == '%'){
-            System.out.println(num1%num2);
+        if (operator == '-') {
+            System.out.println(num1 - num2);
+        }
+        if (operator == '*') {
+            System.out.println(num1 * num2);
+        }
+        if (operator == '/') {
+            System.out.println(num1 / num2);
+        }
+        if (operator == '%') {
+            System.out.println(num1 % num2);
 
         }
-
-        }
-
-
 
     }
+
+
+}
 
 
